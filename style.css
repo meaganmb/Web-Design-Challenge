@@ -1,0 +1,23 @@
+/* #navbar navbar-expand-lg navbar-light bg-light{ */
+#navbarSupportedContent{
+    position:relative;
+    left:80%;
+  }
+  h1{
+    color:white;
+    background:turquoise;
+  }
+
+  .navbar-brand {
+    position: fixed;
+    height: 56px;
+    width: 90px;
+    background: turquoise;
+    color:#fff;
+    line-height: -10%;
+    /* font-size: large; */
+  }
+
+  #lat_box{
+      color: #fff;
+  }
