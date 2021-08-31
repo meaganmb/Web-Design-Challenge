@@ -16,6 +16,14 @@
     /* background:turquoise; */
   }
 
+  h5{
+    color: #4AAAA5;
+    font-family: Georgia, Times, “Times New Roman”, serif;
+    font-size: 20px;
+    font-weight: bold;
+    /* background-color: white; */
+  }
+
 .navbar {
   padding: 0px 150px 0px 60px;
 }
@@ -68,10 +76,16 @@
   }
 
   .col-md-12{
-    /* position: relative; */
     margin-top: 50px;
     margin-bottom: 40px;
     padding: 25px;
+    background: white;
+  }
+
+  .col-md-6{
+    /* margin-top: 50px; */
+    /* margin-bottom: 40px; */
+    /* padding: 25px; */
     background: white;
   }
 
