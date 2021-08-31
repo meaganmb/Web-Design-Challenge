@@ -66,39 +66,19 @@
     /* Visual */
     background: #4AAAA5;
   }
-  img{
-    /* vertical-align: middle; */
-  }
 
   .col-md-12{
     /* position: relative; */
+    margin-top: 50px;
     margin-bottom: 40px;
     padding: 25px;
     background: white;
   }
-  .col-md-4{
-    background: white;
-    margin-top: 50px;
-    padding-left: 0px;
-    padding-right: 15px;
-  }
 
-  .col-md-8{
-    margin-top: 50px;
-    /* margin-left: 5px; */
-    width: 100%;
-    background: white;
-    padding-left: 15px;
-    padding-right: 5px;
-  }
   body {
     background-color: #ededed;
     overflow-x: hidden;
 }
-
-  /* div{
-    display: block;
-  } */
 
   /* Adding media queries at 600 pixels or less*/
 @media (max-width: 800px) {
