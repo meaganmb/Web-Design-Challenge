@@ -3,23 +3,46 @@
     position:relative;
     left:80%;
   }
+
+/* body{
+  background: gray;
+} */
+
   h1{
-    color:white;
-    background:turquoise;
+    color:#4AAAA5;
+    /* background:turquoise; */
   }
 
-  .navbar-brand {
+  h2{
+    color:#4AAAA5;
+    /* background:turquoise; */
+  }
+
+  h3{
+    color:#4AAAA5;
+    /* background:turquoise; */
+  }
+
+  /* .navbar-brand {
     position: fixed;
     height: 56px;
     width: 90px;
     background: turquoise;
     color:#fff;
-    line-height: -10%;
+    line-height: -10%; */
     /* font-size: large; */
-  }
+  /* } */
 
-  #lat_box{
+  /* #lat_box{
       color: #fff;
+  } */
+
+  /* NOTE:
+  col-md-12 :white */
+  /* background is gray */
+
+  #title_text{
+    color: #fff;
   }
 
   .row{
@@ -27,4 +50,26 @@
     flex-wrap: wrap;
     margin-right: -15px;
     margin-left: -15px;
+  }
+
+  #logo {
+    /* Box-model */
+    height: 60px;
+    width: 110px;
+    padding-top: 20px;
+    padding-bottom: 5px;
+    /* Positioning */
+    position: fixed;
+    margin-left: 20px;
+    font-family: Georgia, Times, “Times New Roman”, serif;
+    /* Typography */
+    font-size: 24px;
+    font-weight: bold;
+    color: #fff;
+    /* Visual */
+    background: #4AAAA5;
+  }
+
+  .col-md-12{
+    background: white;
   }
