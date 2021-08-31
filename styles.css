@@ -11,7 +11,7 @@
   h1, h2, h3{
     color:#4AAAA5;
     font-family: Georgia, Times, “Times New Roman”, serif;
-    font-size: 24px;
+    font-size: 30px;
     font-weight: bold;
     /* background:turquoise; */
   }
@@ -66,6 +66,9 @@
     /* Visual */
     background: #4AAAA5;
   }
+  img{
+    /* vertical-align: middle; */
+  }
 
   .col-md-12{
     /* position: relative; */
@@ -76,7 +79,7 @@
   .col-md-4{
     background: white;
     margin-top: 50px;
-    padding-left: 15px;
+    padding-left: 0px;
     padding-right: 15px;
   }
 
@@ -86,7 +89,7 @@
     width: 100%;
     background: white;
     padding-left: 15px;
-    padding-right: 15px;
+    padding-right: 5px;
   }
   body {
     background-color: #ededed;
@@ -100,9 +103,9 @@
   /* Adding media queries at 600 pixels or less*/
 @media (max-width: 800px) {
 /* Change navbar to greenish color */
-  .navbar-brand{
-  background-color: #4AAAA5;
-}
+/* #title_text{
+  color: #4AAAA5;
+} */
 
 /* change background to white */
   body{
