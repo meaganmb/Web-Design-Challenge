@@ -1,63 +1,52 @@
-/* #navbar navbar-expand-lg navbar-light bg-light{ */
 #navbarSupportedContent{
+
     position:relative;
     left:80%;
+
   }
 
-/* body{
-  background: gray;
-} */
 
   h1, h2, h3{
+
     color:#4AAAA5;
     font-family: Georgia, Times, “Times New Roman”, serif;
     font-size: 30px;
     font-weight: bold;
-    /* background:turquoise; */
+
   }
 
   h5{
+
     color: #4AAAA5;
     font-family: Georgia, Times, “Times New Roman”, serif;
     font-size: 20px;
     font-weight: bold;
-    /* background-color: white; */
+
   }
 
 .navbar {
+
   padding: 0px 150px 0px 60px;
+
 }
 
-  /* .navbar-brand {
-    position: fixed;
-    height: 56px;
-    width: 90px;
-    background: turquoise;
-    color:#fff;
-    line-height: -10%; */
-    /* font-size: large; */
-  /* } */
-
-  /* #lat_box{
-      color: #fff;
-  } */
-
-  /* NOTE:
-  col-md-12 :white */
-  /* background is gray */
-
   #title_text{
+
     color: #fff;
+
   }
 
   .row{
+
     display: flex;
     flex-wrap: wrap;
     margin-right: -15px;
     margin-left: -15px;
+
   }
 
   #logo {
+
     /* Box-model */
     height: 60px;
     width: 110px;
@@ -73,37 +62,37 @@
     color: #fff;
     /* Visual */
     background: #4AAAA5;
+
   }
 
   .col-md-12{
+
     margin-top: 50px;
     margin-bottom: 40px;
     padding: 25px;
     background: white;
+
   }
 
   .col-md-6{
-    /* margin-top: 50px; */
-    /* margin-bottom: 40px; */
-    /* padding: 25px; */
+
     background: white;
+
   }
 
   body {
+
     background-color: #ededed;
     overflow-x: hidden;
+
 }
 
   /* Adding media queries at 600 pixels or less*/
 @media (max-width: 800px) {
-/* Change navbar to greenish color */
-/* #title_text{
-  color: #4AAAA5;
-} */
-
 /* change background to white */
   body{
     background-color:white;
     overflow-x: hidden;
+
   }
 }
