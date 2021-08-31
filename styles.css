@@ -97,8 +97,14 @@
     display: block;
   } */
 
-  /* Adding media queries to change background to white at 600 pixels or less*/
-@media (max-width: 600px) {
+  /* Adding media queries at 600 pixels or less*/
+@media (max-width: 800px) {
+/* Change navbar to greenish color */
+  .navbar-brand{
+  background-color: #4AAAA5;
+}
+
+/* change background to white */
   body{
     background-color:white;
     overflow-x: hidden;
